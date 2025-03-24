@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ item.name }}</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+</head>
+<body>
+    <nav>
+        <a href="/menu/">Back to Menu</a>
+    </nav>
+    <div class="container">
+        <h1>{{ item.name }}</h1>
+        <img src="{{ item.image.url }}" alt="{{ item.name }}">
+        <p>Price: ${{ item.price }}</p>
+        <p>{{ item.description }}</p>
+    </div>
+</body>
+</html>ect1
